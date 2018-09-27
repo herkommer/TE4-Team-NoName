@@ -1,6 +1,6 @@
 body {
     font-family: 'PT Sans Narrow', sans-serif;
-    background-image: "./content/img/main.bg.jpg";
+    background-image: url("./img/main.bg.jpg");
     background-repeat: no-repeat;
     background-size: auto;
 }
