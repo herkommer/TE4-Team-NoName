@@ -5,7 +5,7 @@ function create_box(){
     box.style.height = "30px";
     box.style.width = "30px";
     box.style.position = "absolute";
-    box.style.backgroundColor = "black";
+    box.style.backgroundColor = "red";
     box.style.cursor = "pointer";
     box.onclick = function(){box_position();}
     box_position();
@@ -15,6 +15,7 @@ function box_position(){
     var box = document.getElementById("black_box");
     box.style.top = Math.random() * window.innerHeight + "px";
     box.style.left = Math.random() * window.innerWidth + "px";
+    box.style.transform = "rotate(" + Math.random() * 90 + "deg)"
 }
 create_box();
 
