@@ -1,3 +1,16 @@
 body {
     font-family: 'PT Sans Narrow', sans-serif;
+    background-image: "content/img/main.bg.jpg";
+    background-repeat: no-repeat;
+    background-size: auto;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+ }  
