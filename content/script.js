@@ -16,6 +16,13 @@ function box_position(){
     box.style.top = Math.random() * window.innerHeight + "px";
     box.style.left = Math.random() * window.innerWidth + "px";
     box.style.transform = "rotate(" + Math.random() * 90 + "deg)"
+    if(counter++ == 10){
+        alert("You pressed the box 10 times!");
+    }else if(counter == 25){
+        alert("You pressed it 25 times!");
+    };
+    
 }
 create_box();
 
+var counter = 0;
